@@ -1,2 +1,3 @@
 FROM busybox:latest
+RUN touch /root/test.txt
 CMD echo Hello World
